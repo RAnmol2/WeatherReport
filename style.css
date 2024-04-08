@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue"
+}
+
+.container{
+    width: 100%; 
+    max-width: 600px;
+     margin: 0 auto; 
+    text-align: center;
+}
+
+.input{
+    display: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+input{
+    padding: 10px;
+    border:none;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 250px;
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(153, 87, 215);
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.report{
+    height: 500px;
+    margin-top: 50px;
+    padding: 20px ;
+}
+
+.logo, .city, .temp, .description{
+    font-size:40px ;
+    margin-bottom: 10px;
+}
+
+
+
